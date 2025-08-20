@@ -23,100 +23,118 @@
             to { opacity: 1; transform: translateY(0); }
         }
         .fade-in {
-            animation: fadeIn 0.5s ease-out forwards;
+            animation: fadeIn 0.6s ease-out forwards;
         }
     </style>
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen p-4 sm:p-6">
 
-    <!-- Receipt Card -->
-    <div class="w-full max-w-md bg-white rounded-xl shadow-lg p-6 sm:p-8 space-y-6 fade-in">
-        
-        <!-- Header Section -->
-        <div class="text-center space-y-4">
-            <!-- Success Icon -->
-            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto">
-                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-            </div>
-            <h1 class="text-2xl font-bold text-gray-800">Payment Successful</h1>
-            <p class="text-gray-500">Your debt has been paid in full.</p>
+    <div class="w-full max-w-md text-center">
+        <!-- Main Message Section -->
+        <div class="mb-8 fade-in">
+            <h1 class="text-4xl sm:text-5xl font-bold text-gray-800 flex items-center justify-center">
+                <span class="mr-3">😄</span>
+                <span>You are AMAZING</span>
+                <span class="ml-3">😄</span>
+            </h1>
+            <p class="text-gray-500 mt-2">(muhahaha 😃 day 3/3 😼 all finished)</p>
         </div>
 
-        <!-- Payment Details Section -->
-        <div class="bg-gray-50 rounded-lg p-4 text-center">
-            <p class="text-sm text-gray-500">TOTAL PAID</p>
-            <p class="text-4xl font-bold text-gray-900">$0.00</p>
-            <p class="text-xs text-gray-400">Paid via Fulfilling a Bet 😁</p>
+        <!-- Proof Text Section -->
+        <div class="mb-8 fade-in" style="animation-delay: 100ms;">
+            <p class="text-gray-600 italic">i aint cap 🧢 ma receipt for proof 👇</p>
         </div>
 
-        <!-- Order Summary Section -->
-        <div class="space-y-4">
-            <h2 class="text-lg font-semibold text-gray-700 border-b pb-2">Order Summary</h2>
+        <!-- Receipt Card -->
+        <div class="w-full bg-white rounded-xl shadow-lg p-6 sm:p-8 space-y-6 fade-in text-left" style="animation-delay: 300ms;">
             
-            <!-- Line Items -->
-            <div class="space-y-3 text-sm">
-                <div class="flex justify-between items-center">
-                    <span class="text-gray-600">3x You Are AMAZINGG! 😺</span>
-                    <span class="font-medium text-gray-800">$0.00</span>
+            <!-- Header Section -->
+            <div class="text-center space-y-4">
+                <!-- Success Icon -->
+                <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto">
+                    <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                 </div>
-                <div class="flex justify-between items-center">
-                    <span class="text-gray-600">1x Superior Knowledge 🧢 (i lie)</span>
-                    <span class="font-medium text-gray-800">$0.00</span>
-                </div>
-                <div class="flex justify-between items-center">
-                    <span class="text-gray-600">1x Me Losing a Bet 🥲</span>
-                    <span class="font-medium text-gray-800">$0.00</span>
-                </div>
+                <h2 class="text-2xl font-bold text-gray-800">Payment Successful</h2>
+                <p class="text-gray-500">Your debt has been paid in full.</p>
             </div>
 
-            <!-- Divider -->
-            <div class="border-t border-dashed my-4"></div>
-
-            <!-- Fees and Discounts -->
-            <div class="space-y-3 text-sm">
-                <div class="flex justify-between items-center">
-                    <span class="text-gray-600">1x Use of External Search Engine</span>
-                    <span class="font-medium text-gray-800">$0.01</span>
-                </div>
-                <div class="flex justify-between items-center">
-                    <span class="text-green-600">Discount: i forgib</span>
-                    <span class="font-medium text-green-600">-$0.01</span>
-                </div>
+            <!-- Payment Details Section -->
+            <div class="bg-gray-50 rounded-lg p-4 text-center">
+                <p class="text-sm text-gray-500">TOTAL PAID</p>
+                <p class="text-4xl font-bold text-gray-900">$0.00</p>
+                <p class="text-xs text-gray-400">Paid via Fulfilling a Bet 😁</p>
             </div>
 
-            <!-- Divider -->
-            <div class="border-t border-solid my-4"></div>
+            <!-- Order Summary Section -->
+            <div class="space-y-4">
+                <h3 class="text-lg font-semibold text-gray-700 border-b pb-2">Order Summary</h3>
+                
+                <!-- Line Items -->
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-600">3x You Are AMAZINGG! 😺</span>
+                        <span class="font-medium text-gray-800">$0.00</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-600">1x Superior Knowledge 🧢 (i lie)</span>
+                        <span class="font-medium text-gray-800">$0.00</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-600">1x Me Losing a Bet 🥲</span>
+                        <span class="font-medium text-gray-800">$0.00</span>
+                    </div>
+                </div>
 
-            <!-- Total -->
-            <div class="flex justify-between items-center font-semibold">
-                <span class="text-gray-800">Total</span>
-                <span class="text-gray-900">$0.00</span>
+                <!-- Divider -->
+                <div class="border-t border-dashed my-4"></div>
+
+                <!-- Fees and Discounts -->
+                <div class="space-y-3 text-sm">
+                    <div class="flex justify-between items-center">
+                        <span class="text-gray-600">1x Use of External Search Engine</span>
+                        <span class="font-medium text-gray-800">$0.01</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-green-600">Discount: i forgib</span>
+                        <span class="font-medium text-green-600">-$0.01</span>
+                    </div>
+                </div>
+
+                <!-- Divider -->
+                <div class="border-t border-solid my-4"></div>
+
+                <!-- Total -->
+                <div class="flex justify-between items-center font-semibold">
+                    <span class="text-gray-800">Total</span>
+                    <span class="text-gray-900">$0.00</span>
+                </div>
             </div>
+            
+            <!-- Footer Section -->
+            <div class="border-t pt-4 text-xs text-gray-500 space-y-2">
+                <div class="flex justify-between">
+                    <span>Transaction ID:</span>
+                    <span id="transaction-id" class="font-mono"></span>
+                </div>
+                <div class="flex justify-between">
+                    <span>Date:</span>
+                    <span id="transaction-date"></span>
+                </div>
+                <p class="text-center pt-4">Billed by Zelly Corporation™</p>
+            </div>
+
         </div>
-        
-        <!-- Footer Section -->
-        <div class="border-t pt-4 text-xs text-gray-500 space-y-2">
-            <div class="flex justify-between">
-                <span>Transaction ID:</span>
-                <span id="transaction-id" class="font-mono"></span>
-            </div>
-            <div class="flex justify-between">
-                <span>Date:</span>
-                <span id="transaction-date"></span>
-            </div>
-            <p class="text-center pt-4">Billed by The Compliment Factory™</p>
-        </div>
-
     </div>
 
     <script>
         // JavaScript to generate dynamic data
 
-        // 1. Generate a random transaction ID
+        // 1. Generate the custom transaction ID
         function generateTransactionId() {
             const prefix = 'tr_';
-            const randomPart = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-            return prefix + randomPart.slice(0, 24);
+            // This string is "holy moly guacamoly" written in a way that looks like a random ID
+            const customId = 'H01YM01Y6U4C4M01Y'; 
+            return prefix + customId;
         }
 
         // 2. Get and format the current date and time
